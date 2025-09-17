@@ -13,12 +13,18 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: "clave_segura"
       - key: N8N_HOST
+        value: "0.0.0.0"
+      - key: N8N_PORT
+        value: "5678"
+      - key: N8N_PROTOCOL
+        value: "http"
+      - key: N8N_EDITOR_BASE_URL
         value: "https://n8n.onrender.com"
-      - key: WEBHOOK_TUNNEL_URL
-        value: "https://n8n.onrender.com"
-      - key: NHOST_GRAPHQL_URL
-        value: "https://backend.nhost.app/v1/graphql"
-      - key: NHOST_ADMIN_SECRET
-        value: "tu_clave_secreta"
       - key: N8N_ENABLE_EXTERNAL_MODULES
         value: "true"
+      - key: NODE_FUNCTION_ALLOW_EXTERNAL
+        value: "axios,n8n-workflow,n8n-core"
+      - key: NHOST_GRAPHQL_URL
+        value: "https://gadpauhcoiifbbfnxcdz.hasura.us-east-1.nhost.run/v1/graphql"
+      - key: NHOST_ADMIN_SECRET
+        value: "Ztq;lS@mp9YG$_Cn7gpoMUFu:GGxDPY("
