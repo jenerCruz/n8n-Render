@@ -1,1 +1,10 @@
-
+{
+  "name": "n8n-nodes-nhost-graphql",
+  "version": "0.1.0",
+  "description": "Nodo personalizado para interactuar con Nhost vía GraphQL",
+  "main": "src/NhostGraphQL.node.ts",
+  "scripts": {},
+  "keywords": ["n8n", "nhost", "graphql"],
+  "author": "Eduardo",
+  "license": "MIT"
+}
