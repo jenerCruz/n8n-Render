@@ -1,0 +1,23 @@
+{
+  "name": "n8n-nodes-nhost-graphql",
+  "version": "1.0.0",
+  "description": "Nodo personalizado para ejecutar queries y mutations en Nhost GraphQL desde n8n",
+  "main": "dist/NhostGraphQL.node.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp NhostGraphQL.node.js dist/"
+  },
+  "keywords": [
+    "n8n",
+    "nhost",
+    "graphql",
+    "custom-node",
+    "automation"
+  ],
+  "author": "Eduardo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "n8n-workflow": "^1.40.0",
+    "n8n-core": "^1.40.0"
+  }
+}
